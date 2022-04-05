@@ -1,6 +1,6 @@
 # Mask_Detection
 
-A Flask app built to detect whether person wearing mask or not or person is wearing it incorrectly. The model is trained using TFOD 2.
+A Flask app built to detect whether person wearing mask or not or person is wearing it incorrectly. The model is trained using TFOD 2 using the datset from [Kaggle](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection).
 
 Web App Main Page :
 

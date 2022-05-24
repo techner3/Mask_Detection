@@ -29,6 +29,7 @@ Dataset : [Link](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection)
 
 * com_in_ineuron_ai_utils - This directory contains the script for all necessary function
 * my_model - This directory contains trained object detection model used for prediction
+* templates - This directory contains the frontend files for the webapp
 * object_detection - This directory contains all necessary files for tensorflow object detection training and prediction
 * Sample_images - This directory contains sample images to test the app
 
@@ -50,4 +51,4 @@ Docker command to pull the image:
 # Points to Note : 
 
 * Not all files are uploaded to github due to the large size of it
-* Please pull the image from dockerhub using the above command for any customizing purposes
+* Please pull the image from dockerhub for using the app locally

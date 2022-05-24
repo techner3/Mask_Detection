@@ -27,8 +27,10 @@ Dataset : [Link](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection)
 <img width="229" alt="image" src="https://user-images.githubusercontent.com/58848985/169958144-712f2c5f-a765-493a-a075-092098f40b6a.png">
 
 
-*
-
+* com_in_ineuron_ai_utils - This directory contains the script for all necessary function
+* my_model - This directory contains trained object detection model used for prediction
+* object_detection - This directory contains all necessary files for tensorflow object detection training and prediction
+* Sample_images - This directory contains sample images to test the app
 
 # Preview of the Web App
 
@@ -41,12 +43,11 @@ After Prediction:
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/58848985/161687308-577f42c0-7ee8-4ff9-b876-d34a7907a518.png">
 
 
-This flask app has been dockerized and pushed it into dockerhub. 
 Docker command to pull the image:
 
 ```docker pull techner3/maskod```
 
 # Points to Note : 
 
-* The app may take while to load ,Please bear with it 
-* Many of the libraries are commented in requirements.txt and libraries needed only for prediction has been installed to reduce slug size while deploying to heroku.
+* Not all files are uploaded to github due to the large size of it
+* Please pull the image from dockerhub using the above command for any customizing purposes

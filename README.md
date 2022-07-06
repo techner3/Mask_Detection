@@ -13,7 +13,8 @@ This project has been developed to detect whether a person is wearing mask or we
 
 # Project Description 
 
-A web app has been developed for this project which takes a image as an input and returns the predictions as a result. The app is dockerized and pushed to dockerhub. Command to pull the image from dockerhub is given below. The object detection model is trained using TFOD 2 (Tensorflow Object detection). The input image is first encode to base64 format after which is it send to the backend where the image is decoded and the prediction is done. And final ly the input image 
+A web app has been developed for this project which takes a image as an input and returns the predictions as a result. The app is dockerized and pushed to dockerhub. Command to pull the image from dockerhub is given below. The object detection model is trained using TFOD 2 (Tensorflow Object detection). The input image is first encode to base64 format after which is it send to the backend where the image is decoded and the prediction is done. And finally the output image 
+with the prediciton is displayed
 
 # Dataset Used
 
